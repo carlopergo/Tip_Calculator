@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('cocosignum.corsivo-italico-bold');
+@import url('Semplicita-Light'); 
+
+#results {
+        display:none
+       }
+
+body{
+        background-image: url("Bkg.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: center; 
+        display: flex ;
+        background-position-y: 0%;
+}
+
+.container{
+        background: transparent;
+        object-fit: contain;
+        justify-content: center;
+        background-position: center;
+        padding: 100px 0;
+}
+
+.title {
+      font-family: 'cocosignum.corsivo-italico-bold';  
+}
+
+/* INPUT */
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{ 
+    top:-35px;
+    font-size: 14px;
+}
+
+.form-control {
+        width: 100%;
+        padding: 10px;
+        outline: 0;
+        border: none;
+        color: black;
+        background: transparent;
+        font-size: 15px;
+    }
+
+.input-group-addon {
+        color: black;
+        background: transparent;
+        border: none;
+}
+
+.input
+.input-group{
+        width: 100%;
+        padding: 10px;
+        outline: 0;
+        border: none;
+        color: black;
+        background: transparent;
+        font-size: 15px;  
+}
+/* RESULTS */
+        h5{
+        font-family: 'Semplicita-Medium';
+        font-size: 1.5rem;
+        color: black;
+        }
+
+        .card{
+                background: transparent;
+                border: none;
+        }
